@@ -1,0 +1,207 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            :root {
+                --card_width: 250px;
+                --row_increment: 10px;
+                --card_border_radius: 16px;
+                --card_small: 26;
+                --card_medium: 33;
+                --card_large: 45;
+            }
+
+            body {
+                margin: 0;
+                padding: 0;
+                padding-top: 5px;
+                background-color: grey;
+            }
+
+            .pin_container {
+                margin: 0;
+                padding: 0;
+                width: 80vw;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+
+                display: grid;
+                grid-template-columns: repeat(auto-fill, var(--card_width));
+                grid-auto-rows: var(--row_increment);
+                justify-content: center;
+
+                background-color: black;
+            }
+
+            .card {
+                padding: 0;
+                margin: 15px 10px;
+                border-radius: var(--card_border_radius);
+                background-color: red;
+            }
+
+            .card_small {
+                grid-row-end: span var(--card_small);
+            }
+
+            .card_medium {
+                grid-row-end: span var(--card_medium);
+            }
+
+            .card_large {
+                grid-row-end: span var(--card_large);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="pin_container">
+    
+
+     <div class="card card_medium">
+              <img src=" ./Photos/20220813_081042.jpg " width="250">
+            </div>
+    
+1
+
+     <div class="card card_large">
+              <img src=" ./Photos/DSC_0756.jpg " width="250">
+            </div>
+    
+2
+
+     <div class="card card_medium">
+              <img src=" ./Photos/DSC_0742.jpg " width="250">
+            </div>
+    
+3
+
+     <div class="card card_large">
+              <img src=" ./Photos/DSC_0743.jpg " width="250">
+            </div>
+    
+4
+
+     <div class="card card_medium">
+              <img src=" ./Photos/DSC_0741.jpg " width="250">
+            </div>
+    
+5
+
+     <div class="card card_large">
+              <img src=" ./Photos/DSC_0754.jpg " width="250">
+            </div>
+    
+6
+
+     <div class="card card_medium">
+              <img src=" ./Photos/DSC_0740.jpg " width="250">
+            </div>
+    
+7
+
+     <div class="card card_large">
+              <img src=" ./Photos/DSC_0744.jpg " width="250">
+            </div>
+    
+8
+
+     <div class="card card_medium">
+              <img src=" ./Photos/DSC_0750.jpg " width="250">
+            </div>
+    
+9
+
+     <div class="card card_large">
+              <img src=" ./Photos/DSC_0751.jpg " width="250">
+            </div>
+    
+10
+
+     <div class="card card_medium">
+              <img src=" ./Photos/DSC_0745.jpg " width="250">
+            </div>
+    
+11
+
+     <div class="card card_large">
+              <img src=" ./Photos/DSC_0753.jpg " width="250">
+            </div>
+    
+12
+
+     <div class="card card_medium">
+              <img src=" ./Photos/DSC_0747.jpg " width="250">
+            </div>
+    
+13
+
+     <div class="card card_large">
+              <img src=" ./Photos/DSC_0746.jpg " width="250">
+            </div>
+    
+14
+
+     <div class="card card_medium">
+              <img src=" ./Photos/DSC_0752.jpg " width="250">
+            </div>
+    
+15
+
+     <div class="card card_large">
+              <img src=" ./Photos/DSC_0739.jpg " width="250">
+            </div>
+    
+16
+
+     <div class="card card_medium">
+              <img src=" ./Photos/DSC_0762.jpg " width="250">
+            </div>
+    
+17
+
+     <div class="card card_large">
+              <img src=" ./Photos/DSC_0760.jpg " width="250">
+            </div>
+    
+18
+
+     <div class="card card_medium">
+              <img src=" ./Photos/DSC_0748.jpg " width="250">
+            </div>
+    
+19
+
+     <div class="card card_large">
+              <img src=" ./Photos/DSC_0749.jpg " width="250">
+            </div>
+    
+20
+
+     <div class="card card_medium">
+              <img src=" ./Photos/DSC_0761.jpg " width="250">
+            </div>
+    
+21
+
+     <div class="card card_large">
+              <img src=" ./Photos/DSC_0759.jpg " width="250">
+            </div>
+    
+22
+
+     <div class="card card_medium">
+              <img src=" ./Photos/DSC_0758.jpg " width="250">
+            </div>
+    
+23
+
+     </div>
+    </body>
+    </html>
+
